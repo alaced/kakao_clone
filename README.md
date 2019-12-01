@@ -1,2 +1,3 @@
 # kakao_clone
- clone coding
+
+kakao desktop app clone
