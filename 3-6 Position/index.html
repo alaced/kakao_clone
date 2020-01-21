@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Position</title>
     <style>
-      /* body,
+      body,
       html {
         height: 100%;
         margin: 0;
@@ -15,7 +15,7 @@
         height: 400%;
         background-color: red;
       }
-      #boxOne {
+      /* #boxOne {
         height: 300px;
         width: 300px;
         background-color: yellow;
@@ -29,10 +29,25 @@
           bottom: 10px;
           left: 30px;
       } */
+      .abs-box {
+        height: 400px;
+        width: 400px;
+        background-color: yellow;
+        position: relative;
+      }
+      .abs-child {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+      }
     </style>
   </head>
 
   <body>
+    <div class="abs-box"><div class="abs-child"></div></div>
     <!-- <div id="boxOne">
       <div class="box-child"></div>
     </div>
