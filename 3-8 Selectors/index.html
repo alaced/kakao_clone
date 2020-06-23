@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors and Psedo Selecotrs</title>
+    <style>
+      input[required="required"] {
+        background-color: red;
+      }
+      input {
+        border: 1px solid yellow;
+      }
+      .box {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <input type="password" required="required" />
+      <input type="submit" required="required" />
+    </div>
+  </body>
+</html>
